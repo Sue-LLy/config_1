@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/SpringCloud_Sell2/config-repo
+          username: Sue_LLy@163.com
+          password: Sue_LLy@163.com
+          basedir: D:\SpringCloud\SpringCloudProject\SpringCloud_Sell\config\basedir
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
